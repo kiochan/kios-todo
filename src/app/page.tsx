@@ -1,9 +1,14 @@
+import * as React from "react";
+import Button from "@mui/material/Button";
+
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      Hello, World!
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
     </main>
   );
 }
